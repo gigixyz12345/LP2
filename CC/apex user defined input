@@ -1,0 +1,25 @@
+public class Maths1 {
+
+    
+    public static void operations(Integer num1, Integer num2, Integer tableNum) {
+
+       
+        Integer add = num1 + num2;
+        Integer sub = num1 - num2;
+        Integer mul = num1 * num2;
+        
+        
+        Integer div = num1 / num2;
+
+        System.debug('Addition: ' + add);
+        System.debug('Subtraction: ' + sub);
+        System.debug('Multiplication: ' + mul);
+        System.debug('Division: ' + div);
+        
+        // Multiplication Table using the tableNum input and remove Integer num1, Integer num2
+        System.debug('Table for: ' + tableNum);
+        for (Integer i = 1; i <= 10; i++) {
+            System.debug(tableNum + ' x ' + i + ' = ' + (tableNum * i));
+        }
+    }
+}
